@@ -39,7 +39,7 @@ const Task = ({
     >
       {task.length < 1 ? (
         <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] place-items-center">
-          <h1 className="text-sm md:text-2xl font-bold mb-3">
+          <h1 className="text-sm md:text-2xl md:font-bold mb-3">
             You have no open task !
           </h1>
           <button
@@ -109,7 +109,7 @@ const Task = ({
               />
 
               <label htmlFor="desc" className="text-xs mb-2 font-normal">
-                Title:
+                Description:
               </label>
               <textarea
                 placeholder="Description"
@@ -120,7 +120,7 @@ const Task = ({
                 required
               />
               <label htmlFor="date" className="text-xs mb-2 font-normal">
-                Title:
+                Date:
               </label>
               <input
                 type="date"
