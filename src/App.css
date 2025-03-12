@@ -11,6 +11,6 @@
     font-family: Outfit;
     scroll-behavior: smooth;
 }
-body{
-    @apply bg-white text-zinc-900
-}
+/* body{
+    @apply bg-zinc-900 text-zinc-50
+} */
