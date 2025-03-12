@@ -40,13 +40,13 @@ const Task = ({
       {task.length < 1 ? (
         <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] place-items-center">
           <h1 className="text-sm md:text-2xl md:font-bold mb-3">
-            You have no open task !
+            You have no open Note !
           </h1>
           <button
             className="px-5 py-2 bg-blue-500 rounded hover:bg-blue-700"
             onClick={() => setShowModal(true)}
           >
-            Add Task
+            Add Note
           </button>
         </div>
       ) : (
